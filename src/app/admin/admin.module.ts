@@ -17,6 +17,7 @@ import { ResultsComponent } from './component/results/results.component';
 import { ViewCategoryResultsComponent } from './component/view-category-results/view-category-results.component';
 
 
+
 @NgModule({
   declarations: [
     AdminComponent,
@@ -30,6 +31,7 @@ import { ViewCategoryResultsComponent } from './component/view-category-results/
     UsersComponent,
     ResultsComponent,
     ViewCategoryResultsComponent,
+    
   ],
   imports: [
     CommonModule,
