@@ -52,8 +52,8 @@
                   </div>
                 </form>
 
-                <form *ngIf="authStatus && userStatus">
-                  <div class="btn btn-primary mx-3" [routerLink]="['/user']">
+                <form *ngIf="authStatus && userStatus && testStatus">
+                  <div  class="btn btn-primary mx-3" [routerLink]="['/user']">
                     <a style="text-decoration: none;">Test</a>
                   </div>
                 </form>

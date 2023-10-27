@@ -8,10 +8,16 @@ import { AuthService } from '../../auth/auth.service';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
+  
   authStatus: boolean = false;
   adminStatus: boolean = false;
   userStatus: boolean = false;
+
+  testStatus=false;
+  
+
   constructor(public authService: AuthService, private locationSt: LocationStrategy) {}
+
 
   ngOnInit(): void {
     this.authService.getToken();
